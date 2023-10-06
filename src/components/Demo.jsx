@@ -12,7 +12,6 @@ export default function Demo(){
 
     useEffect(() => {
         const localSummaries = JSON.parse(localStorage.getItem("summaries"))
-        console.log(localSummaries)
         if(localSummaries){
             setSummaries(localSummaries)
         }
